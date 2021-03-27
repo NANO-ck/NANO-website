@@ -1,0 +1,80 @@
+/*NAVIGATION BAR*/
+html {
+	--sweetblack: #1a1a1a;
+	--light-black: #252525;
+	--nano-orange: #FF6600;
+	--nano-dark-orange: #cc5200;
+}
+/*Whole navigation bar*/
+nav.nav-top-bar{
+	background-color: var(--sweetblack);
+	padding: 1%;
+	user-select: none;
+}
+/*Navigation logo*/
+nav.nav-top-bar li.nav-img img{
+	width: 48px;
+	height: 48px;
+}
+/*Navigation margin*/
+nav.nav-top-bar li.nav-img{
+	margin-left: 10%
+}
+/*Navigation buttons*/
+nav.nav-top-bar li{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 3%
+}
+/*Navigation buttons links*/
+nav.nav-top-bar li.nav-btn a{
+	text-decoration: none;
+	color: white;
+	font-size: 120%;
+	padding: 10px;
+	transition: 0.3s all;
+	font-family: Nunito;
+}
+nav.nav-top-bar li.nav-btn:hover a{
+	text-decoration: none;
+	color: var(--nano-orange);
+	transition: 0.3s all;
+}
+
+/*BODY*/
+body{
+	background-color: var(--light-black);
+	margin: 0px;
+	margin-bottom: -142px; 
+}
+
+/*FOOTER*/
+footer p{
+	background-color: var(--sweetblack);
+	padding: 10px;
+	color: white;
+	font-family: Nunito;
+	text-align: center;
+}
+img{
+	user-select: none;
+}
+/* Style BARS*/
+h2.bar{
+	font-size: 70px;
+	opacity: 1;
+	transition: 2s all;
+	color: white;
+	text-align: center;
+	font-family: Nunito;
+	user-select: none;
+}
+div.main div.greeting h1{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	font-family: Nunito;
+}
+div.main div.greeting{
+	text-align: center;
+}

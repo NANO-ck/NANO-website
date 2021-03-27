@@ -1,0 +1,6 @@
+complete white #ffffff
+complete black #000000
+sweetblack #1a1a1a
+light black #252525
+nano orange #FF6600
+dark nano orange #cc5200
