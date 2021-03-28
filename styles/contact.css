@@ -17,9 +17,11 @@ div.cards li.card{
     color: white;
     font-family: Nunito;
     box-shadow: var(--nano-orange);
+    transition: 1s all;
 }
-div.cards li.card{
-    text-shadow: 2px 2px 5px red;
+div.cards li.card:hover{
+    box-shadow: 2px 2px 30px var(--nano-dark-orange);
+    transition: 1s all;
 }
 img.cardimg{
     width: 15%;
