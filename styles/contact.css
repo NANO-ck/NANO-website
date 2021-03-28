@@ -18,6 +18,9 @@ div.cards li.card{
     font-family: Nunito;
     box-shadow: var(--nano-orange);
 }
+div.cards li.card{
+    text-shadow: 2px 2px 5px red;
+}
 img.cardimg{
     width: 15%;
     height: 15%;
