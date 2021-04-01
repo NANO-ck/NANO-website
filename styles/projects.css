@@ -1,0 +1,40 @@
+html {
+	--sweetblack: #1a1a1a;
+	--light-black: #252525;
+	--nano-orange: #FF6600;
+	--nano-dark-orange: #cc5200;
+}
+div.cards{
+    text-align: center;
+    margin: auto;
+}
+div.cards li.card{
+    display:inline-block;
+    margin: 2%;
+    background-color: black;
+    padding: 1%;
+    width: 35%;
+    color: white;
+    font-family: Nunito;
+    box-shadow: var(--nano-orange);
+    transition: 1s all;
+}
+div.cards li.card:hover{
+    box-shadow: 2px 2px 30px var(--nano-dark-orange);
+    transition: 1s all;
+}
+img.cardimg{
+    width: 20%;
+    height: 20%;
+}
+a.cardlink{
+    color: white;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 150%;
+    transition: 0.3s all;
+}
+a.cardlink:hover{
+    transition: 0.3s all;
+    color: var(--nano-dark-orange);
+}
