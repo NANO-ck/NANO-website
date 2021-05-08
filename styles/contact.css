@@ -18,10 +18,11 @@ div.cards li.card{
     font-family: Nunito;
     box-shadow: var(--nano-orange);
     transition: 1s all;
+    border-radius: 10px;
 }
 div.cards li.card:hover{
     box-shadow: 2px 2px 30px var(--nano-dark-orange);
-    transition: 1s all;
+    transition: 0.4s all;
 }
 img.cardimg{
     width: 15%;
